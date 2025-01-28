@@ -2,9 +2,11 @@
 
 This Mike's course site and repository for his part of the University of Minnesota Course Econ 8403 (part of the Phd Trade Sequence) which is co-taught with Doireann Fitzgerald.
 
+Time and place: 9:05-10:45 MW in Hanson Hall 4-190
+
 ---
 
-### Why you should be interested in this course?
+### Why should you be interested in this course?
 
 This course will focus on **trade policy** with a particular focus on quantitative aspects of trade policy. 
 
@@ -18,21 +20,21 @@ The goal is to learn the core theoretical contributions and then be able to thin
 
 ### The plan
 
-* Monday 3rd February: Detailed discussion of the [Eaton and Kortum (2002) model](./readings/EK-2002.pdf). 
+* Monday 3rd February: Detailed discussion of the [Eaton and Kortum (2002) model](./readings/EK2002.pdf). 
 
 * Wednesday 5th February: We will have seen the equivalence between Eaton and Kortum and Armington. Then given demand system (Armington-CES), we will derive the optimal, unilateral tariff, in primal form. Readings are [Costinot, Rodriguez-Clare](./readings/CRC_Handbook.pdf) and [Dixit 1985](./readings/dixit-1985.pdf)
 
 * Monday 10th February: Continue with optimal tariff in more general settings and quantiative implications.
 
-* Wednesday 12th February: Political economy arguments for tariffs: [Grossman Helpman 1994](https://www.jstor.org/stable/2118033) and [Adao, Costinot, Donaldson](https://www.nber.org/papers/w31798).
+* Wednesday 12th February: Political economy arguments for tariffs: [Grossman Helpman 1994](./readings/grossman-helpman.pdf) and [Adao, Costinot, Donaldson](https://www.nber.org/papers/w31798).
 
-* Wednesday 26th February: Quantitative analysis of trade wars: [Ossa 2014](https://www.aeaweb.org/articles?id=10.1257/aer.104.12.4104)
+* Wednesday 26th February: Quantitative analysis of trade wars: [Ossa 2014](./readings/ossa-2014.pdf)
 
 * Monday 3rd March: Connection with US-China trade war [Caliendo and Parro 2021](https://www.nber.org/papers/w29051) 
 
 ---
 
-Deliverables:
+### Deliverables
 
 * One problem set for me. It will be focused on computation.
 
@@ -40,7 +42,7 @@ Deliverables:
 
 ---
 
-Code:
+### Code
 
 * My julia code for the [Armington-CES model](https://github.com/mwaugh0328/julia-armington) and compute optimal tariffs.
 
@@ -48,7 +50,7 @@ Code:
 
 ---
 
-Resources:
+### Resources:
 
 * Here is a comprehensive course that was taught by [Donaldson and Costinot](https://dave-donaldson.com/teaching/#tab-id-1). Lots of interesting stuff here.
 
