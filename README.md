@@ -20,11 +20,11 @@ The goal is to learn the core theoretical contributions and then be able to thin
 
 ### The plan
 
-* Monday 3rd February: Detailed discussion of the [Eaton and Kortum (2002) model](./readings/EK2002.pdf). 
+* Monday 3rd February: Detailed discussion of the [Eaton and Kortum (2002)](./readings/EK2002.pdf)  model. 
 
 * Wednesday 5th February: We will have seen the equivalence between Eaton and Kortum and Armington. Then given demand system (Armington-CES), we will derive the optimal, unilateral tariff, in primal form. Readings are [Costinot, Rodriguez-Clare](./readings/CRC_Handbook.pdf) and [Dixit 1985](./readings/dixit-1985.pdf)
 
-* Monday 10th February: Continue with optimal tariff in more general settings and quantiative implications.
+* Monday 10th February: Continue with optimal tariff in more general settings and quantitative implications.
 
 * Wednesday 12th February: Political economy arguments for tariffs: [Grossman Helpman 1994](./readings/grossman-helpman.pdf) and [Adao, Costinot, Donaldson](https://www.nber.org/papers/w31798).
 
