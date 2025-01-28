@@ -1,5 +1,9 @@
 # Minnesota PhD Trade 2025
 
+<p float="left" align="middle">
+  <img src="tariff.png" width="475" /> 
+</p>
+
 This Mike's course site and repository for his part of the University of Minnesota Course Econ 8403 (part of the Phd Trade Sequence) which is co-taught with Doireann Fitzgerald.
 
 Time and place: 9:05-10:45 MW in Hanson Hall 4-190
