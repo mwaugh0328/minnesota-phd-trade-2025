@@ -58,6 +58,8 @@ The goal is to learn the core theoretical contributions and then be able to thin
 
 * Here is a comprehensive course that was taught by [Donaldson and Costinot](https://dave-donaldson.com/teaching/#tab-id-1). Lots of interesting stuff here.
 
+* Treb Allen (and Costas) their [notes](https://sites.google.com/site/treballen/graduate-trade).
+
 * Gravity datasets are here at [CEPII](https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele.asp)
 
 * [World input-output datasets](https://www.rug.nl/ggdc/valuechain/wiod/?lang=en) usefull to construct tradeflows across countries and industries.
