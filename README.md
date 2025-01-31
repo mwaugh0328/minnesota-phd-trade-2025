@@ -24,7 +24,7 @@ The goal is to learn the core theoretical contributions and then be able to thin
 
 ### The plan
 
-* **Monday 3rd February**: Detailed discussion of the [Eaton and Kortum (2002)](./readings/EK2002.pdf)  model. [Class notes](.notes/ek-notes.pdf) with detailed walk through as to how the model works. 
+* **Monday 3rd February**: Detailed discussion of the [Eaton and Kortum (2002)](./readings/EK2002.pdf)  model. [Class notes](./notes/ek-notes.pdf) with detailed walk through as to how the model works. 
 
 * **Wednesday 5th February**: We will have seen the equivalence between Eaton and Kortum and Armington. Then given demand system (Armington-CES), we will derive the optimal, unilateral tariff, in primal form. Readings are [Costinot, Rodriguez-Clare](./readings/CRC_Handbook.pdf) and [Dixit 1985](./readings/dixit-1985.pdf)
 
