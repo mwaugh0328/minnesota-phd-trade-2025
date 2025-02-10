@@ -79,6 +79,10 @@ The goal is to learn the core theoretical contributions and then be able to thin
   **Revenue Maximization**
 
     * [Can Trade Taxes be a Major Source of Government Revenue?](https://alashkar.pages.iu.edu/TARIFF_REVENUE_Lashkaripour.pdf)
+ 
+  **Distributional Concerns**
+
+    * [Inequality, Redistribution and Optimal Trade Policy: A Public Finance Approach](https://roozbeh-hosseini.github.io/papers/Hosseini_Shourideh_Optimal_Trade_Policy.pdf)
    
     
 
