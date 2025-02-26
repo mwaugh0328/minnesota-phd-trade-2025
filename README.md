@@ -36,7 +36,7 @@ The goal is to learn the core theoretical contributions and then be able to thin
 
 * **Monday 3rd March**: Quantitative analysis of trade wars: [Ossa 2014](./readings/ossa-2014.pdf)
 
-* Class notes on [optimal tariffs](./notes/optimal-tariff-notes.pdf.pdf) the non-EK discussion above. 
+* Class notes on [optimal tariffs](./notes/optimal-tariff-notes.pdf) the non-EK discussion above. 
 
 ---
 

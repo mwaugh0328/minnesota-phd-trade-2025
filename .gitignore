@@ -169,3 +169,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# tex stuff
+.synctex
+.blg
+.bbl
+.aux
+.log
