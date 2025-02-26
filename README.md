@@ -30,19 +30,21 @@ The goal is to learn the core theoretical contributions and then be able to thin
 
 * **Monday 10th February**: Continue with optimal tariff in more general settings and quantitative implications.
 
-* **Wednesday 12th February**: Political economy arguments for tariffs: [Grossman Helpman 1994](./readings/grossman-helpman.pdf) and [Adao, Costinot, Donaldson](https://www.nber.org/papers/w31798).
+* **Wednesday 12th February**: Political economy arguments for tariffs: [Grossman Helpman 1994](./readings/grossman-helpman.pdf).
 
-* **Wednesday 26th February**: Quantitative analysis of trade wars: [Ossa 2014](./readings/ossa-2014.pdf)
+* **Wednesday 26th February**: Redistributive motives [Adao, Costinot, Donaldson](https://www.nber.org/papers/w31798)
 
-* **Monday 3rd March**: Connection with US-China trade war [Caliendo and Parro 2021](https://www.nber.org/papers/w29051) 
+* **Monday 3rd March**: Quantitative analysis of trade wars: [Ossa 2014](./readings/ossa-2014.pdf)
+
+* Class notes on [optimal tariffs](./notes/optimal-tariff-notes.pdf.pdf) the non-EK discussion above. 
 
 ---
 
 ### Deliverables
 
-* One problem set for me. It will be focused on computation.
+* [Problem Set](./problem-set/problem-set-waugh.pdf). Due April 1st. 
 
-* Possibly a group presentation. This will be discussed jointly with Doireann and I 
+* Group presentation. This will be discussed jointly with Doireann and I 
 
 ---
 
@@ -58,7 +60,7 @@ The goal is to learn the core theoretical contributions and then be able to thin
 
 * Here is a comprehensive course that was taught by [Donaldson and Costinot](https://dave-donaldson.com/teaching/#tab-id-1). Lots of interesting stuff here.
 
-* Treb Allen (and Costas) their [notes](https://sites.google.com/site/treballen/graduate-trade).
+* Treb Allen's (and Costas) their [notes](https://sites.google.com/site/treballen/graduate-trade).
 
 * Gravity datasets are here at [CEPII](https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele.asp)
 

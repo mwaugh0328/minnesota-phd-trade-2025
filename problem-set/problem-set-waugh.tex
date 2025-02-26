@@ -1,0 +1,149 @@
+\documentclass[pdftex,11pt]{article}
+\usepackage[pdftex]{graphicx,color}
+\usepackage{setspace}
+\usepackage{amsmath,amssymb}
+\usepackage{titlesec}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage[longnamesfirst]{natbib}
+\usepackage{cite}
+\usepackage[paperwidth=8.5in,
+left=0.5in,right=0.5in,paperheight=11.0in,textheight=9.5in,centering]{geometry}
+
+\bibliographystyle{ecta}
+\definecolor{nblue}{RGB}{0,0,128}
+
+\usepackage[colorlinks=true, linkcolor=nblue,
+citecolor=black, urlcolor=nblue, bookmarks=false,
+pdfstartview={XYZ null null 0.70},
+pdftitle={Problem Set: Minnesota PhD Trade},
+pdfauthor={Michael E. Waugh},
+pdfkeywords={economics, trade, dynamics, quant econ, lyon, waugh, incomplete markets, taxes, redistribution, progressivity, inequality, Ricardo, julia, migration, taxation, social insurance}
+]{hyperref}
+
+\usepackage{setspace}
+
+\onehalfspace
+
+\renewcommand{\baselinestretch}{1.1}
+\renewcommand{\arraystretch}{.7}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{.1in}
+\renewcommand\familydefault{\sfdefault}
+
+\titleformat{\section}{\large\bf}{\thesection.}{.5em}{}
+\titleformat{\subsection}{\normalsize\bf}{\thesubsection.}{.5em}{}
+\titleformat{\subsubsection}{\normalsize\bf}{\thesubsubsection.}{.5em}{}
+
+\def\thesection{\arabic{section}}
+\def\thesubsection{\Alph{subsection}}
+\def\thesubsubsection{\Roman{subsubsection}}
+
+\newtheorem{proposition}{Proposition}
+\newtheorem{assumption}{Assumption}
+
+\pagestyle{fancy}
+\rhead{}
+\lhead{}
+\cfoot{\thepage}
+\lfoot{}
+\lfoot{Revised: \today}
+\renewcommand{\headrulewidth}{0pt}
+
+
+\begin{document}
+
+
+\centerline{ \large \textbf{Problem Set \# 2: Simulating the Eaton and Kortum (2002) model}}
+
+\bigskip
+
+In this problem set, you will simulate versions of the multi-country, continuum of goods, Ricardian Model and then do \textbf{one} of three things: (i) check how the \href{https://www.aeaweb.org/articles?id=10.1257/aer.102.1.94}{ACR gains from trade calculation} depend upon the distributional assumption, or (ii) compute the optimal unilateral tariff, or (iii) analyze which goods should be tariffed.
+
+In this problem set, you are required to do task 1 and 2. Then after that, you have choice to do one of three of things.
+
+The outline of the model I want you to compute is the same as that discussed in class:
+\begin{itemize}
+\item The production technologies for each good are linear in labor, and productivity across goods are random variables drawn from country specific distribution functions.
+
+\item There is a representative consumer in each country and he has CES preferences defined over all the goods with an elasticity of substitution $\sigma$.
+\end{itemize}
+Here are the steps to solving the problem set:
+\begin{enumerate}
+\item Code up a general version of the Eaton and Kortum (2002) model that is solved by discretizing the continuum and then solving for aggregate trade flows via simulation. Because of what I ask below, I would like you to set your code up so it can handle arbitrary distributions over the productivity draws.
+
+    Here is some pseudo code how to do compute trade flows via simulation, given an vector of wages. This is as follows:
+    \begin{itemize}
+    \item Assume there are 100,000 goods in the economy.
+    \item For each good in each country, draw a productivity term for the production technology from the country specific distribution.
+    \item Then figure out for each good and each country, which country is the low cost supplier.
+    \item Compute aggregate trade shares. That is the share of expenditures that country $i$ spends on goods from country $j$. These are the $\pi_{ij}$s that I discussed in class.
+
+        Note, when you set up your code do not exploit the distributional assumptions of Eaton and Kortum (2002). Use the CES demand functions to determine the expenditure shares between counties. To do this we need to know the price of the low cost supplier for a particular good, the identity, and the aggregate price index.
+
+    \item If you are doing the tariff exercise, be sure to record the amount of tariff revenue collected.
+    \end{itemize}
+\item Assume the distribution over productivities is Frechet. Compute the matrix of trade shares for a economy with two symmetric countries and with the following parameters:
+    \begin{eqnarray*}
+    T_i = 1, \ \forall i, \ \ \ \theta = 4, \ \ \  \sigma = 2 \ \ \ d_{ij} = 1.75, \ \mbox{when} \ i \neq j, \ \ d_{ii} = 1
+    \end{eqnarray*}
+    Also, set the tariff in each country to zero (again, if you are not doing the tariff exercise ignore this).
+
+    Because the countries are symmetric, this implies the equilibrium wage rates are the same, and thus we can normalize them to both to one (we will check this in the next step). As a check of your code, compare your results to the what the theory implied trade share should be.
+
+\item Now solve for an equilibrium. Do this by creating an outer function that (i) takes in a proposed vector of wages (ii) computes the expenditure shares (as discussed above) (iii) check if balanced trade holds so total value of expenditure equals the value of goods sold abroad and (iv) update accordingly until (iii) is satisfied.
+
+    \textbf{Important!} Make sure the seed on the random number generator is held fixed (not changing with the simulation).
+
+    \textbf{Important!} There is always on price which can be normalized, so set one country's wage to the value one. Note as a check of your code, with symmetric countries then the resulting equilibrium wage should be one.
+    
+\item Great work if you've made it this far. 
+\end{enumerate}
+
+\bigskip
+\bigskip
+
+\centerline{ \Large \textbf{Do **one** of the three tasks below.}}
+
+\bigskip
+\bigskip
+
+\centerline{ \large \textbf{Optional task \#1}}
+\begin{enumerate}
+\item For country 2 change the trade friction that it faces to import from country 1 so that $\tau_{2,1} = 1.749$ and recompute the equilibrium (again make sure to hold the seed fixed). Please report the percentage change in country 2's real wage. How does this compare to the results of ACR?
+
+\item Redo the same calculation in (1) but with the distribution of productivities distributed log-normal. Define $\mu$ and $\sigma_n$ as the mean and standard deviation of the associated normal distribution. Set $\mu_i = 1$ for all countries and $\sigma = 0.40$.\footnote{The parameter $\sigma_n$ was chosen so the coefficient of variation in productivity across the models is similar.} How does this compare to the results of ACR?
+
+\item Quantitatively, does the alternative distributional assumption generate meaningful deviations from the baseline Frechet model? What if the change in the trade costs were larger, like setting $\tau_{2,1} = 1.60$?
+
+\item In the Frechet model, the value controlling the elasticity of substitution on the CES preferences, $\sigma$, does not matter (as long as it satisfies certain restrictions). Can you verify this? Does the value of $\sigma$ matter in the non-Frechet model?
+\end{enumerate}
+
+\bigskip
+\bigskip
+
+\centerline{ \large \textbf{Optional task \#2}}
+\begin{enumerate}
+\item Starting from the baseline described above, now introduce a tariff for Country 2. \textbf{Important!} make sure that the balanced trade conditions is properly modified to account for the revenue accrued. Given this verify that you can compute an equilibrium. 
+
+\item Now grid over the tariff (say from 0 to 50 percent) with some spacing. Compute Country 2's real consumption (wage + the tariff revenue) deflated by the price index, for each level of the tariff. Plot it. What do you see?
+
+\item How does this connect to the discussion we have had about optimal unilateral tariffs. Design computational exercise(s) to back up your arguments.
+\end{enumerate}
+
+\bigskip
+\bigskip
+
+\newpage
+
+\centerline{ \large \textbf{Optional task \#3}}
+\begin{enumerate}
+\item Note: this is the hardest task. You may actually want to do task \#2 anyways to check that your code works. 
+
+\item Introduce a good-specific tariff in Country 2 that takes the following form: 0 if Country 2's productivity for a good is \textbf{above its average} productivity and then a 20 percent tariff if Country 2's productivity is \textbf{below its average}. How does welfare (wage + the tariff revenue deflated by the price index) compare in the good-specific tariff world versus a uniform tariff world?
+    
+\item Now grid over the good-specific tariff (say from 0 to 50 percent) with some spacing. Compute Country 2's welfare, for each level of the tariff. Plot it. What do you see? How does it compare to a uniform tariff? Discuss what you think is going on. Design and implement computational exercise(s) to back up your arguments.
+\end{enumerate}
+
+
+\end{document}
