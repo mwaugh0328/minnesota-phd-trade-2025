@@ -171,8 +171,8 @@ cython_debug/
 .pypirc
 
 # tex stuff
-.synctex
-.blg
-.bbl
-.aux
-.log
+*.synctex
+*.blg
+*.bbl
+*.aux
+*.log
