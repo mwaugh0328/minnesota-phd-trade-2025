@@ -66,5 +66,27 @@ The goal is to learn the core theoretical contributions and then be able to thin
 
 * [World input-output datasets](https://www.rug.nl/ggdc/valuechain/wiod/?lang=en) usefull to construct tradeflows across countries and industries.
 
+  ---
+
+  ### Papers related to topics that I'm covering
+
+  **Capital Controls** Like with tariffs, imposing capital controls could move intertemporal prices in a countries favor
+
+  * [Heathcote Perri](https://www.imf.org/external/np/res/seminars/2014/arc/pdf/heathcote_perri.pdf) quantiative BKK
+
+  * [Costinot, Lorenzoni, Werning](https://economics.mit.edu/sites/default/files/publications/ITP_webpage.pdf)
+ 
+  * [Optimal trade policy with trade imbalances](https://www.sciencedirect.com/science/article/abs/pii/S0304393219301990) by Beshkar and Shourideh
+ 
+  **Revenue Maximization**
+
+    * [Can Trade Taxes be a Major Source of Government Revenue?](https://alashkar.pages.iu.edu/TARIFF_REVENUE_Lashkaripour.pdf)
+ 
+  **Distributional Concerns**
+
+    * [Inequality, Redistribution and Optimal Trade Policy: A Public Finance Approach](https://roozbeh-hosseini.github.io/papers/Hosseini_Shourideh_Optimal_Trade_Policy.pdf)
+   
+    
+
 
 
