@@ -34,7 +34,7 @@ The goal is to learn the core theoretical contributions and then be able to thin
 
 * **Wednesday 26th February**: Redistributive motives [Adao, Costinot, Donaldson](https://www.nber.org/papers/w31798)
 
-* **Monday 3rd March**: Quantitative analysis of trade wars: [Ossa 2014](./readings/ossa-2014.pdf)
+* **Monday 3rd March**: Quantitative analysis of trade wars: [Ossa 2014](./readings/ossa-2014.pdf), [Ossa Slides](./readings/trade-wars-slides.pdf)
 
 * Class notes on [optimal tariffs](./notes/optimal-tariff-notes.pdf) the non-EK discussion above. 
 
@@ -81,6 +81,10 @@ The goal is to learn the core theoretical contributions and then be able to thin
   **Revenue Maximization**
 
     * [Can Trade Taxes be a Major Source of Government Revenue?](https://alashkar.pages.iu.edu/TARIFF_REVENUE_Lashkaripour.pdf)
+
+  **More on Quantitative Aspects of Trade Wars**
+
+    *[The Cost of a Global Tariff War: ASufficient Statistics Approach](https://alashkar.pages.iu.edu/Tariff_War_Lashkaripour.pdf)
  
   **Distributional Concerns**
 
