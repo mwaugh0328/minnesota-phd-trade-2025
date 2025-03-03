@@ -85,6 +85,10 @@ The goal is to learn the core theoretical contributions and then be able to thin
   **More on Quantitative Aspects of Trade Wars**
 
     *[The Cost of a Global Tariff War: ASufficient Statistics Approach](https://alashkar.pages.iu.edu/Tariff_War_Lashkaripour.pdf)
+
+  **Labor Supply**
+  
+    *[OPTIMAL TRADE POLICIES AND LABOR MARKETS](https://www.nber.org/system/files/working_papers/w32919/w32919.pdf)
  
   **Distributional Concerns**
 
